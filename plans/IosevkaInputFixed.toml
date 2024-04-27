@@ -1,0 +1,62 @@
+[buildPlans.IosevkaInputFixed]
+family = "IosevkaInputFixed"
+spacing = "fixed"
+serifs = "sans"
+noCvSs = true                # disable char variants to reduce file size
+exportGlyphNames = true      # glyph names for kitty
+
+[buildPlans.IosevkaInputFixed.variants]
+inherits = "ss18"
+
+[buildPlans.IosevkaInputFixed.variants.design]
+zero = "slashed"
+
+[buildPlans.IosevkaInputFixed.weights.ExtraLight]
+shape = 200
+menu = 200
+css = 200
+
+[buildPlans.IosevkaInputFixed.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.IosevkaInputFixed.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaInputFixed.weights.Medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.IosevkaInputFixed.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.IosevkaInputFixed.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.IosevkaInputFixed.weights.ExtraBold]
+shape = 800
+menu = 800
+css = 800
+
+[buildPlans.IosevkaInputFixed.widths.Normal]
+shape = 500
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaInputFixed.widths.SemiExtended]
+shape = 548
+menu = 6
+css = "semi-expanded"
+
+[buildPlans.IosevkaInputFixed.widths.Extended]
+shape = 600
+menu = 7
+css = "expanded"
